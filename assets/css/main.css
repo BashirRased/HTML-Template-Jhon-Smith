@@ -1,0 +1,411 @@
+/**
+  
+* Template Name: Jhon Smith | One Page HTML Portfolio Template
+* Version: 1.0.0
+* Author: Bashir Rased
+* Author URL: www.bashir-rased.com
+* Email: info@bashir-rased.com
+
+**/
+
+/*=============================
+Table of CSS Content Start Here
+===============================
+	01. Default Tag
+	02. Common Classes
+	03. Theme Color Options
+	04. Section Title
+	05. Header Area
+	06. Page Demo Section
+	07. Template Features Section
+	08. Footer Area
+	09. Scroll To Top Button
+=============================
+Table of CSS Content End Here
+===========================*/
+
+/*============================
+01. Default Tag CSS Start Here
+============================*/
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+p {
+	font-size: 15px;
+	line-height: 26px;
+	margin-bottom: 0;
+}
+section {
+	padding: 100px 0;
+}
+img {
+	max-width: 100%;
+}
+/*==========================
+01. Default Tag CSS End Here
+==========================*/
+
+/*===============================
+02. Common Classes CSS Start Here
+===============================*/
+.rb-btn {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 36px;
+	cursor: pointer;
+	border-radius: 50px;
+	overflow: hidden;
+	z-index: 0;
+}
+.rb-btn:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+	z-index: -1;	
+}
+.rb-btn:hover:before {
+	width: 100%;
+}
+.rb-btn a {
+	text-decoration: none;
+	display: block;
+}
+.rb-strong-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.rb-content-title h3 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.rb-content-title h3:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 50%;
+	height: 3px;
+}
+/*=============================
+02. Common Classes CSS End Here
+=============================*/
+
+/*====================================
+03. Theme Color Options CSS Start Here
+====================================*/
+.rb-theme-colors {
+	position: fixed;
+	top: 25%;
+	left: -160px;
+	width: 160px;
+	padding: 10px 5px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 14px 0 rgba(0, 0, 0, .08);
+	z-index: 9999;
+}
+.rb-theme-colors:before {
+	content: "";
+	position: absolute;
+	top: 39px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #cccccc;
+}
+.rb-color-options ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.rb-color-options ul li {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin: 5px;	
+	border-radius: 16px 16px 0;
+	cursor: pointer;
+}
+.rb-color-btn {
+	position: absolute;
+	top: 0;
+	right: -40px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #2b2424;
+	color: #ffffff;
+	border-radius: 0 5px 5px 0;
+}
+.rb-color-1 {
+	background-color: #0176ff;	
+}
+.rb-color-2 {
+	background-color: #0058f3;	
+}
+.rb-color-3 {
+	background-color: #7065ef;	
+}
+.rb-color-4 {
+	background-color: #19b521;	
+}
+.rb-color-5 {
+	background-color: #ffa50d;	
+}
+.rb-color-6 {
+	background-color: #f02c2d;	
+}
+/*==================================
+03. Theme Color Options CSS End Here
+==================================*/
+
+/*==============================
+04. Section Title CSS Start Here
+==============================*/
+.rb-section-title {
+	text-align: center;
+	margin: 20px 0 70px;
+}
+.rb-section-title h2 {
+	position: relative;
+	display: inline-block;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.rb-section-title h2:before,
+.rb-section-title h2:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.rb-section-title h2:before {
+	bottom: -20px;
+	width: 100%;
+	height: 2px;
+	background-color: #222222;
+}
+.rb-section-title h2:after {
+	bottom: -29px;
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	transform: rotate(45deg);	
+}
+/*============================
+04. Section Title CSS End Here
+============================*/
+
+/*============================
+05. Header Area CSS Start Here
+============================*/
+.rb-header-area {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 80vh;
+	background-image: url(../img/main-page-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 65% 0;
+	z-index: 99;	
+}
+.rb-header-area:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.8);
+	z-index: -1;
+}
+.rb-header-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+.rb-header-title {
+	margin-bottom: 20px;
+}
+.rb-header-subtitle {
+	margin-bottom: 50px;
+}
+.btn-buy-now a,
+.btn-page-demo a {
+	color: #ffffff;
+}
+.btn-buy-now,
+.btn-page-demo {
+	margin: 0 10px 10px 0;
+	border: 1px solid #ffffff;
+}
+/*==========================
+05. Header Area CSS End Here
+==========================*/
+
+/*==================================
+06. Page Demo Section CSS Start Here
+==================================*/
+.rb-template-demo {
+	background-color: #F7FAFD;
+}
+.rb-template-demo a {
+	text-decoration: none;
+}
+.rb-single-demo {
+	background-color: #ffffff;	
+	box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+	padding: 30px;	
+}
+.rb-demo-img {
+	height: 410px;
+	overflow: hidden;
+}
+.rb-demo-img img {
+	transition: all 8s ease;
+}
+.rb-demo-img:hover img {
+	margin-top: -1800px;
+}
+.rb-demo-caption {
+	margin-top: 20px;
+	text-align: center;
+	color: #222222;
+}
+/*================================
+06. Page Demo Section CSS End Here
+================================*/
+
+/*==========================================
+07. Template Features Section CSS Start Here
+==========================================*/
+.rb-single-feature {
+	padding: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	text-align: center;
+}
+.rb-feature-icon {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.rb-feature-icon i {
+	width: 100px;
+    height: 100px;
+    line-height: 100px;
+	color: #ffffff;
+    font-size: 40px;
+    border-radius: 50%;
+}
+/*========================================
+07. Template Features Section CSS End Here
+========================================*/
+
+/*============================
+08. Footer Area CSS Start Here
+============================*/
+.rb-footer-area {
+	background-color: #171718;
+	color: #ffffff;
+	padding: 50px 0;
+}
+.rb-copyright-text {
+	margin-top: 20px;
+}
+.rb-copyright-text a {
+	text-decoration: none;
+}
+.rb-footer-social-icons ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.rb-footer-social-icons li {
+	display: inline-block;
+	margin: 8px;
+}
+.rb-footer-social-icons a {
+	text-decoration: none;
+	display: block;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 50%;
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	position: relative;
+}
+.rb-footer-social-icons a:hover {
+	color: #ffffff;
+}
+.rb-footer-social-icons a:before {
+	transition-delay: 100ms;
+	visibility: hidden;
+	z-index: 999;
+}
+.rb-footer-social-icons a:hover:before,
+.rb-footer-social-icons a:hover:after {
+	visibility: visible;
+}
+.rb-footer-social-icons a:after {
+	content: attr(aria-label);
+	position: absolute;
+	top: -53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+	transition-delay: 100ms;
+	visibility: hidden;
+}
+/*==========================
+08. Footer Area CSS End Here
+==========================*/
+
+/*=====================================
+09. Scroll To Top Button CSS Start Here
+=====================================*/
+.rb-scroll-to-top {
+	display: none;
+	position: fixed;
+	font-size: 22px;
+	color: #ffffff;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center; 
+	cursor: pointer;
+	-webkit-box-shadow: 0 10px 20px 0 rgba(23, 22, 49, 0.1);
+          box-shadow: 0 10px 20px 0 rgba(23, 22, 49, 0.1);
+	z-index: 99999;
+}
+/*===================================
+09. Scroll To Top Button CSS End Here
+===================================*/

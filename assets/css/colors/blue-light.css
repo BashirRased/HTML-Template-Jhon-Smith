@@ -1,0 +1,305 @@
+/**
+  
+* Template Name: Jhon Smith | One Page HTML Portfolio Template
+* Version: 1.0.0
+* Author: Bashir Rased
+* Author URL: www.bashir-rased.com
+* Email: info@bashir-rased.com
+
+**/
+
+/*=============================
+Table of CSS Content Start Here
+===============================
+	01. Default Tag
+	02. Common Classes
+	03. Theme Color Options
+	04. Section Title
+	05. Header Area
+		5.1. Header Top
+			5.1.1. Header Logo
+			5.1.2. Header Mobile Menu
+			5.1.3. Header Desktop Menu
+		5.2. Header Content
+		5.3. Header Scrolldown Button
+	06. About Me Section
+	07. My Skills Section
+	08. Hire Me Section
+	09. Services Section
+	10. CountTo Section
+	11. Portfolio Section
+	12. Resume Section
+	13. Testimonial Section
+	14. Contact Me Section
+	15. Footer Area
+	16. Scroll To Top Button
+	17. Main Page Design
+=============================
+Table of CSS Content End Here
+===========================*/
+
+/*============================
+01. Default Tag CSS Start Here
+============================*/
+
+/*==========================
+01. Default Tag CSS End Here
+==========================*/
+
+/*===============================
+02. Common Classes CSS Start Here
+===============================*/
+.rb-theme-color {
+	color: #3498db;
+}
+.rb-btn:before {
+	background-color: #3498db;
+}
+/*=============================
+02. Common Classes CSS End Here
+=============================*/
+.rb-content-title h3:after {
+	background-color: #3498db;
+}
+/*====================================
+03. Theme Color Options CSS Start Here
+====================================*/
+
+/*==================================
+03. Theme Color Options CSS End Here
+==================================*/
+
+/*==============================
+04. Section Title CSS Start Here
+==============================*/
+.rb-section-title h2:after {
+	background-color: #3498db;	
+}
+/*============================
+04. Section Title CSS End Here
+============================*/
+
+/*============================
+05. Header Area CSS Start Here
+============================*/
+
+/*===== 5.1. Header Top CSS Start Here =====*/
+
+/* 5.1.1. Header Logo CSS Start Here */
+.rb-header-logo h1 a {
+	color: #3498db;
+}
+/* 5.1.1. Header Logo CSS End Here */
+
+/* 5.1.2. Header Mobile Menu CSS Start Here */
+.rb-mobile-menu-icon {
+	background-color: #3498db;
+}
+/* 5.1.2. Header Mobile Menu CSS End Here */
+
+/* 5.1.3. Header Desktop Menu CSS Start Here */
+.rb-header-active-menu {
+	color: #3498db !important;
+}
+@media all and (max-width: 991px) {
+	.rb-desktop-menu li {
+		background-color: #3498db;
+	}
+}
+/* 5.1.3. Header Desktop Menu CSS End Here */
+
+/*===== 5.1. Header Top CSS End Here =====*/
+
+/*===== 5.2. Header Content CSS Start Here =====*/
+.rb-type-effect {
+	border-right: 6px solid #3498db;
+}
+/*===== 5.2. Header Content CSS End Here =====*/
+
+/*==========================
+05. Header Area CSS End Here
+==========================*/
+
+/*=================================
+06. About Me Section CSS Start Here
+=================================*/
+.btn-download-cv,
+.btn-contact-me {
+	border: 1px solid #3498db;
+}
+.btn-download-cv a,
+.btn-contact-me a {
+	color: #3498db;
+}
+.rb-user-icon {
+	background-color: #3498db;
+}
+/*===============================
+06. About Me Section CSS End Here
+===============================*/
+
+/*==================================
+07. My Skills Section CSS Start Here
+==================================*/
+.rb-skill-animation {
+	background-color: #3498db;
+}
+.rb-skill-percentage {
+	background-color: #3498db;
+}
+.rb-skill-percentage:before {
+	border-color: #3498db transparent transparent transparent;
+}
+/*================================
+07. My Skills Section CSS End Here
+================================*/
+
+/*================================
+08. Hire Me Section CSS Start Here
+================================*/
+
+/*==============================
+08. Hire Me Section CSS End Here
+==============================*/
+
+/*=================================
+09. Services Section CSS Start Here
+=================================*/
+.rb-single-service:after {
+	background-color: #3498db;
+}
+.rb-services-icon {
+	color: #3498db;
+}
+/*===============================
+09. Services Section CSS End Here
+===============================*/
+
+/*================================
+10. CountTo Section CSS Start Here
+================================*/
+.rb-separator-countup {
+	background-color: #3498db;
+}
+/*==============================
+10. CountTo Section CSS End Here
+==============================*/
+
+/*==================================
+11. Portfolio Section CSS Start Here
+==================================*/
+.rb-portfolio-menu ul li:hover,
+.rb-active-portfolio {
+	background-color: #3498db;
+	border: 1px solid #3498db !important;
+}
+.rb-portfolio-icon {
+	background-color: #3498db;
+}
+/*================================
+11. Portfolio Section CSS End Here
+================================*/
+
+/*===============================
+12. Resume Section CSS Start Here
+===============================*/
+.rb-resume-single-item-subtitle {
+	background-color: #3498db;
+}
+/*=============================
+12. Resume Section CSS End Here
+=============================*/
+
+/*====================================
+13. Testimonial Section CSS Start Here
+====================================*/
+.rb-client-img {
+	border: 5px solid #3498db;
+}
+.rb-client-name {
+	color: #3498db;
+}
+.owl-dots .owl-dot.active {
+	background-color: #3498db !important;
+}
+/*==================================
+13. Testimonial Section CSS End Here
+==================================*/
+
+/*===================================
+14. Contact Me Section CSS Start Here
+===================================*/
+.rb-contact-info-box:before,
+.rb-contact-info-box:after {
+	border: 2px solid #3498db;
+}
+.rb-contact-info-icon {
+	color: #3498db;
+	border: 1px solid #3498db;
+}
+.rb-contact-info-icon:hover {
+	background-color: #3498db;
+}
+.rb-contact-field input:focus,
+.rb-contact-field textarea:focus {
+	border-bottom: 1px solid #3498db;
+}
+.rb-massage-send {
+	color: #3498db;
+	border: 1px solid #3498db;
+}
+.rb-massage-send:hover {
+	background-color: #3498db;
+}
+/*=================================
+14. Contact Me Section CSS End Here
+=================================*/
+
+/*============================
+15. Footer Area CSS Start Here
+============================*/
+.rb-copyright-text a {
+	color: #3498db;
+}
+.rb-footer-social-icons a {
+	color: #3498db;
+	border: 1px solid #3498db;
+}
+.rb-footer-social-icons a:hover {
+	background-color: #3498db;
+	border: 1px solid #3498db;
+}
+.rb-footer-social-icons a:before {
+	content: "";
+	position: absolute;
+	left: calc(50% - 7px);
+	border: 7px solid transparent;
+	transform: translateY(-8px);
+	border-top-color: #3498db;
+}
+.rb-footer-social-icons a:after {
+	background-color: #3498db;
+}
+/*==========================
+15. Footer Area CSS End Here
+==========================*/
+
+/*=====================================
+16. Scroll To Top Button CSS Start Here
+=====================================*/
+.rb-scroll-to-top {
+	background-color: #3498db;
+}
+/*===================================
+16. Scroll To Top Button CSS End Here
+===================================*/
+
+/*=================================
+17. Main Page Design CSS Start Here
+=================================*/
+.rb-feature-icon i {
+	background-color: #3498db;
+}
+/*===============================
+17. Main Page Design CSS End Here
+===============================*/

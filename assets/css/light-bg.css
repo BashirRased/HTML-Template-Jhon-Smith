@@ -1,0 +1,37 @@
+/**
+  
+* Template Name: Jhon Smith | One Page HTML Portfolio Template
+* Version: 1.0.0
+* Author: Bashir Rased
+* Author URL: www.bashir-rased.com
+* Email: info@bashir-rased.com
+
+**/
+
+body {
+	color: #222222;	
+}
+.rb-theme-colors {
+	background-color: #ffffff;
+}
+.rb-about-me {
+	background-color: #F7FAFD;
+}
+.rb-services {
+	background-color: #F7FAFD;
+}
+.rb-portfolio-menu ul li {
+	border: 1px solid #222222;
+}
+.rb-section-title h2:before {
+	background-color: #222222;
+}
+.rb-my-resume {
+	background-color: #F7FAFD;
+}
+.rb-contact-info-box {
+	background-color: #F7FAFD;
+}
+.rb-footer-area {
+	background-color: #F7FAFD;
+}
